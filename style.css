@@ -237,6 +237,7 @@ header {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .fs-card {
@@ -260,6 +261,7 @@ header {
 @media screen and (max-width: 768px) {
     .fs-content {
         width: calc(50% - 20px);
+        padding: 11px;
     }
 }
 
