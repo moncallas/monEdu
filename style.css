@@ -218,6 +218,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 6px;
 }
 .fs-card p{
     color: #4E3753;
@@ -231,13 +232,13 @@ header {
 
 .fs-title h2 {
     color: #4E3753;
+    margin: 8px;
 }
 
 .fs-content {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     box-sizing: border-box;
-    padding: 20px;
 }
 
 .fs-card {
@@ -255,6 +256,21 @@ header {
 .fs-card h3 {
     color: #6D4871;
     margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #85586F;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #6D4871;
 }
 
 /* Responsive styles */
